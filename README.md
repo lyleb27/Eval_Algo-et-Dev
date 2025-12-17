@@ -44,7 +44,7 @@ fitness = score² × 100 + steps × 0.1 - steps_without_food × 0.5
 - **Survie** : Petite récompense pour rester en vie
 - **Efficacité** : Pénalité pour tourner sans manger
 
-### 2. Sélection (select)
+### 2. Sélection (`select`)
 Trois méthodes disponibles :  
 
 **Tournoi** (par défaut)
