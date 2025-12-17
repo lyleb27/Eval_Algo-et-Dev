@@ -29,11 +29,6 @@ pip install pygame numpy matplotlib
 python main.py
 ```
 
-### Contrôles
-
-- **ESC** : Quitter le programme
-- **ESPACE** : Afficher le graphique de progression (pendant l'entraînement)
-
 ## 🧬 Algorithme Génétique
 
 ### 1. Évaluation (`evaluate`)
