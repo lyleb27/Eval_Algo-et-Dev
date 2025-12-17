@@ -44,6 +44,27 @@ fitness = score² × 100 + steps × 0.1 - steps_without_food × 0.5
 - **Survie** : Petite récompense pour rester en vie
 - **Efficacité** : Pénalité pour tourner sans manger
 
+### 2. Sélection (select)
+Trois méthodes disponibles :  
+
+**Tournoi** (par défaut)
+
+- Sélectionne N individus aléatoirement
+- Garde le meilleur du groupe
+- Équilibre exploration/exploitation
+
+**Roulette**
+
+- Probabilité proportionnelle à la fitness
+- Favorise les meilleurs individus
+
+**Rang**
+
+- Probabilité basée sur le rang
+- Moins sensible aux valeurs extrêmes
+
+**Élitisme** : Les 2 meilleurs individus sont toujours conservés.
+
 ### 3. Reproduction (`reproduce`)
 
 **Crossover (70%)** :
